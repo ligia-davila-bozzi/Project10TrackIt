@@ -1,5 +1,10 @@
-export default function Login (){
-    return (
-        <h1>Login existe</h1>
-    );
+import Home from "../Home/Home";
+
+export default function Login() {
+  return (
+    <>
+      <Home />
+      <h1>Login existe</h1>
+    </>
+  );
 }
