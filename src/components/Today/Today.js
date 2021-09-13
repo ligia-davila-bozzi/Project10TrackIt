@@ -1,11 +1,12 @@
 import Header from "../Header/Header";
+import {Main} from '../others/Styled'
 import Footer from '../Footer/Footer'
 
 export default function Today() {
   return (
     <>
       <Header />
-      <h1>Today existe</h1>
+      <Main></Main>
       <Footer />
     </>
   );

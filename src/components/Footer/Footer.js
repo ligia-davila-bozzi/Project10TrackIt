@@ -24,6 +24,9 @@ const ContainerFooter = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #52B6FF;
+  font-size: 18px;
+  text-align: center;
 
   div{
     width: 91px;
