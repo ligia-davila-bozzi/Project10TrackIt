@@ -33,7 +33,7 @@ export default function SignUp() {
                     <Input type="email" placeholder="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                     <Input type="password" placeholder="senha" value={password} onChange={(e) => setPassword(e.target.value)}/>
                     <Input type="text" placeholder="nome" value={name} onChange={(e) => setName(e.target.value)}/>
-                    <Input type="url" placeholder="foto" value={image} onChange={(e) => setUrl(e.target.value)}/>
+                    <Input type="url" placeholder="foto" value={image} onChange={(e) => setImage(e.target.value)}/>
                     <Button onClick={signUp}>Cadastrar</Button>
                 </form>
                 
